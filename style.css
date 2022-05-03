@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50vw;
+    margin: 5px 10px;
+}
+
+.title-accordion{
+    padding-bottom: 28px;
+    cursor: pointer;
+    background-color: palevioletred;
+    padding: 15px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-radius: 8px;
+}
+
+.conteudo-accordion{
+    display: none;
+    padding: 20px;
+}
+
+.block{
+    display: block;
+} /*classe que será usada para alterar a visibilidade do conteúdo*/
